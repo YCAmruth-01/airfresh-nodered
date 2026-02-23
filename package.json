@@ -1,0 +1,12 @@
+{
+  "name": "airfresh-nodered",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node-red -s settings.js"
+  },
+  "dependencies": {
+    "node-red": "^3.1.0",
+    "node-red-contrib-sqlite": "^0.7.2",
+    "node-red-dashboard": "^3.6.0"
+  }
+}
