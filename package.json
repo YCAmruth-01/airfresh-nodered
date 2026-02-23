@@ -4,13 +4,12 @@
   "scripts": {
     "start": "node-red -s settings.js"
   },
-  "engines": {
-    "node": "18.x"
-  },
-  "dependencies": {
-    "node-red": "^3.1.0",
-    "@inductiveautomation/node-red-contrib-db": "^1.0.0",
-    "node-red-node-sqlite": "^1.0.3",
-    "node-red-dashboard": "^3.6.0"
-  }
+"engines": {
+  "node": ">=20"
+}
+"dependencies": {
+  "node-red": "^3.1.0",
+  "node-red-node-sqlite": "^1.0.3",
+  "node-red-dashboard": "^3.6.0"
+}
 }
