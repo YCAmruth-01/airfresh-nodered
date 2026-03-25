@@ -1,16 +1,16 @@
 {
   "name": "airfresh-nodered",
-  "dependencies": {
-    "node-red": "^3.1.0",
-    "node-red-dashboard": "*",
-    "node-red-contrib-mongodb4": "*"
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node-red -s settings.js"
   },
   "engines": {
     "node": "18.x"
   },
-"dependencies": {
-    "node-red": "^3.x.x",
+  "dependencies": {
+    "node-red": "^3.1.9",
     "node-red-dashboard": "*",
     "node-red-node-sqlite": "*",
     "node-red-contrib-mongodb4": "*"
+  }
 }
