@@ -7,9 +7,9 @@
   "engines": {
     "node": "18.x"
   },
-  "dependencies": {
-    "node-red": "^3.1.0",
-    "node-red-node-sqlite": "^1.0.3",
-    "node-red-dashboard": "^3.6.0"
-  }
+"dependencies": {
+    "node-red": "^3.x.x",
+    "node-red-dashboard": "*",
+    "node-red-node-sqlite": "*",
+    "node-red-contrib-mongodb4": "*"
 }
